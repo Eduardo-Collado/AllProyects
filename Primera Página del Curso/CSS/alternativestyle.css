@@ -1,0 +1,66 @@
+        .headerc {
+            text-align: center;
+            border: solid;
+            border-left: 0ch;
+            border-right: 0ch;
+        }
+        
+        .image {
+            float: left;
+            width: 6rem;
+        }
+        
+        .texth {
+            margin-left: 5rem;
+            text-decoration: none;
+            color: black;
+        }
+        
+        .linka {
+            border: solid;
+            border-top: 0ch;
+            border-left: 0ch;
+            border-right: 0ch;
+            height: 2rem;
+            padding-top: 1rem;
+        }
+        
+        .body {
+            border-left: solid;
+            border-right: solid;
+        }
+        
+        .footer {
+            height: 1rem;
+            width: 100%;
+            border: solid;
+            border-left: 0ch;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2rem;
+        }
+        
+        .margin {
+            margin-left: 5rem;
+        }
+        
+        .borde {
+            border: solid;
+        }
+        
+        .tabla {
+            height: 1.6rem;
+            border-collapse: collapse;
+        }
+        .center{
+            text-align: center;
+        }
+        .tablanro{
+            width:10rem;
+        }
+        .tablat{
+            width:35rem;
+        }
+        .tablad{
+            width:55rem;
+        }
