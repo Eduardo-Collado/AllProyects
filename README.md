@@ -1,2 +1,2 @@
-# HTML/CSS WEB DEVELOPMENT
-Todos los proyectos realizados.
+# HTML/CSS WEB PAGE
+Documentos empleados para la realización de dicha página.
