@@ -1,5 +1,8 @@
         html {
             box-sizing: border-box;
+            background-color: rgb(213, 213, 213);
+            color: #000;
+            font-family: 'Courier New', Courier, monospace;
         }
         
         *,
@@ -8,11 +11,14 @@
             box-sizing: inherit;
         }
         
+        .titulo {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 5rem;
+            font-weight: 800;
+        }
+        
         .headerc {
             text-align: center;
-            border: solid;
-            border-left: 0ch;
-            border-right: 0ch;
         }
         
         .image {
@@ -21,33 +27,36 @@
         }
         
         .texth {
-            margin-left: 5rem;
             text-decoration: none;
-            color: black;
+            color: #000;
+            font-size: x-large;
+            font-weight: bold;
+        }
+        
+        .textd {
+            text-decoration: none;
+            color: #000;
+            font-size: xx-large;
         }
         
         .linka a:hover {
-            color: seagreen;
+            color: blue;
         }
         
         .linka {
-            border: solid;
-            border-top: 0ch;
-            border-left: 0ch;
-            border-right: 0ch;
             height: 3rem;
             padding-top: 1rem;
             width: 100%;
+            display: flex;
+            justify-content: space-evenly;
         }
         
         .body {
             width: 100%;
-            border-left: solid;
-            border-right: solid;
         }
         
         .container {
-            width: 80%;
+            width: 90%;
         }
         
         .bcontainer {
@@ -56,30 +65,28 @@
         
         .footer {
             width: 100%;
-            border: solid;
-            border-left: 0ch;
             display: flex;
             justify-content: space-between;
-            border-right: 0ch;
         }
         
         .derecho {
-            border: solid;
             text-align: center;
-            width: 15%;
-            border-bottom: 0ch;
-            border-top: 0ch;
+            width: 20%;
             margin-right: 0ch;
+            border-right: 0ch;
+            color: #000;
+            background-color: #fff;
+            border-radius: 10%;
         }
         
         .lista {
             display: inline-block;
             text-align: center;
+            color: #000;
         }
         
         .rectangulo {
             margin-left: 5rem;
-            border: solid;
             margin-top: 1.3rem;
             height: auto;
             width: 75%;
