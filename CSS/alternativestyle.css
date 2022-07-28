@@ -43,6 +43,8 @@ html {
     border-right: 0ch;
     height: 3rem;
     padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .body {
