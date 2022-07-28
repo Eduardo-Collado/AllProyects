@@ -25,6 +25,9 @@
             text-decoration: none;
             color: black;
         }
+        .linka a:hover{
+            color: seagreen;
+        }
         
         .linka {
             border: solid;
@@ -33,13 +36,22 @@
             border-right: 0ch;
             height: 3rem;
             padding-top: 1rem;
+            width: 100%;
         }
         
         .body {
+            width: 100%;
             border-left: solid;
             border-right: solid;
+            
         }
-        
+        .container
+        {
+            width: 80%;
+        }
+        .bcontainer{
+            display: flex;
+        }
         .footer {
             width: 100%;
             border: solid;
@@ -51,18 +63,17 @@
         
         .derecho {
             border: solid;
-            float: right;
-            border-top: 0ch;
-            width: 15rem;
-            height: 43rem;
             text-align: center;
+            width: 15%;
             border-bottom: 0ch;
-            border-right: 0ch;
+            border-top: 0ch;
+            margin-right: 0ch;
         }
         
         .lista {
-            text-align: center;
+            
             display: inline-block;
+            text-align: center;
         }
         
         .rectangulo {
@@ -95,11 +106,17 @@
             margin: 0cm;
         }
         .ol{
-            text-align: left; display: inline-block; margin: 0%;
+            text-align: left; 
+            display: inline-block; 
+            margin: 0%;
+        }
+        .fin{
+            margin-bottom: 1.3rem;
         }
         .footerr{
             margin-left: 3rem;
         }
         .footerl{
             margin-right:4.6rem;
-        }
+        }    
+        
