@@ -1,0 +1,126 @@
+        html {
+            box-sizing: border-box;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+        
+        .headerc {
+            text-align: center;
+            border: solid;
+            border-left: 0ch;
+            border-right: 0ch;
+        }
+        
+        .image {
+            float: left;
+            width: 6rem;
+        }
+        
+        .texth {
+            margin-left: 5rem;
+            text-decoration: none;
+            color: black;
+        }
+        
+        .linka a:hover {
+            color: seagreen;
+        }
+        
+        .linka {
+            border: solid;
+            border-top: 0ch;
+            border-left: 0ch;
+            border-right: 0ch;
+            height: 3rem;
+            padding-top: 1rem;
+            width: 100%;
+        }
+        
+        .body {
+            width: 100%;
+            border-left: solid;
+            border-right: solid;
+        }
+        
+        .container {
+            width: 80%;
+        }
+        
+        .bcontainer {
+            display: flex;
+        }
+        
+        .footer {
+            width: 100%;
+            border: solid;
+            border-left: 0ch;
+            display: flex;
+            justify-content: space-between;
+            border-right: 0ch;
+        }
+        
+        .derecho {
+            border: solid;
+            text-align: center;
+            width: 15%;
+            border-bottom: 0ch;
+            border-top: 0ch;
+            margin-right: 0ch;
+        }
+        
+        .lista {
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .rectangulo {
+            margin-left: 5rem;
+            border: solid;
+            margin-top: 1.3rem;
+            height: auto;
+            width: 75%;
+            padding-bottom: 1rem;
+        }
+        
+        .margin {
+            margin-left: 5rem;
+        }
+        
+        .borde {
+            border: solid;
+        }
+        
+        .texto {
+            text-align: justify;
+            padding: 4px 16px;
+        }
+        
+        .center {
+            text-align: center;
+        }
+        
+        .margz {
+            margin: 0cm;
+        }
+        
+        .ol {
+            text-align: left;
+            display: inline-block;
+            margin: 0%;
+        }
+        
+        .fin {
+            margin-bottom: 1.3rem;
+        }
+        
+        .footerr {
+            margin-left: 3rem;
+        }
+        
+        .footerl {
+            margin-right: 4.6rem;
+        }
