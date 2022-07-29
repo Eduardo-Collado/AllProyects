@@ -19,9 +19,6 @@ html {
 
 .headerc {
     text-align: center;
-    border: solid;
-    border-left: 0ch;
-    border-right: 0ch;
 }
 
 .image {
@@ -37,26 +34,15 @@ html {
 }
 
 .linka {
-    border: solid;
-    border-top: 0ch;
-    border-left: 0ch;
-    border-right: 0ch;
     height: 3rem;
     padding-top: 1rem;
     display: flex;
     justify-content: space-evenly;
 }
 
-.body {
-    border-left: solid;
-    border-right: solid;
-}
-
 .footer {
     height: 1rem;
     width: 100%;
-    border: solid;
-    border-left: 0ch;
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
@@ -89,4 +75,9 @@ html {
 
 .tablad {
     width: 55rem;
+}
+
+.texto__solo {
+    font-size: large;
+    font-weight: bold;
 }
