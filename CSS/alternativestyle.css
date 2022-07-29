@@ -17,6 +17,12 @@ html {
     font-weight: 800;
 }
 
+@media (max-width: 700px) {
+    .titulo {
+        font-size: medium;
+    }
+}
+
 .headerc {
     text-align: center;
 }
@@ -31,6 +37,22 @@ html {
     color: #000;
     font-size: x-large;
     font-weight: bold;
+    color: orangered;
+    font-style: oblique;
+    border: solid;
+    border-radius: 10%;
+}
+
+@media (max-width:700px) {
+    .texth {
+        font-size: medium;
+    }
+}
+
+@media (max-width:450px) {
+    .texth {
+        font-size: small;
+    }
 }
 
 .linka {
@@ -38,14 +60,12 @@ html {
     padding-top: 1rem;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
-.footer {
-    height: 1rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
+.linka a:hover {
+    color: blue;
 }
 
 .margin {
@@ -66,18 +86,44 @@ html {
 }
 
 .tablanro {
-    width: 10rem;
+    width: 20%;
 }
 
 .tablat {
-    width: 35rem;
+    width: 35%;
 }
 
 .tablad {
-    width: 55rem;
+    width: 65%;
 }
 
 .texto__solo {
     font-size: large;
     font-weight: bold;
+}
+
+.stabla {
+    width: 100%;
+}
+
+.footer {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: orangered;
+    font-style: oblique;
+    border: solid;
+}
+
+@media (max-width:450px) {
+    .footer {
+        font-size: small;
+    }
+}
+
+@media (max-width:350px) {
+    .footer {
+        font-size: x-small;
+    }
 }

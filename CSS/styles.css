@@ -3,6 +3,7 @@
                             background-color: rgb(213, 213, 213);
                             color: #000;
                             font-family: 'Courier New', Courier, monospace;
+                            width: auto;
                         }
                         
                         *,
@@ -15,6 +16,12 @@
                             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                             font-size: 5rem;
                             font-weight: 800;
+                        }
+                        
+                        @media (max-width: 700px) {
+                            .titulo {
+                                font-size: medium;
+                            }
                         }
                         
                         .headerc {
@@ -31,11 +38,21 @@
                             color: #000;
                             font-size: x-large;
                             font-weight: bold;
+                            color: orangered;
+                            font-style: oblique;
+                            border: solid;
+                            border-radius: 10%;
                         }
                         
-                        @media (max-width: 700px) {
+                        @media (max-width:700px) {
                             .texth {
                                 font-size: medium;
+                            }
+                        }
+                        
+                        @media (max-width:450px) {
+                            .texth {
+                                font-size: small;
                             }
                         }
                         
@@ -54,24 +71,21 @@
                             padding-top: 1rem;
                             display: flex;
                             justify-content: space-evenly;
+                            margin-top: 5rem;
+                            margin-bottom: 5rem;
                         }
                         
                         .body {
-                            width: 95%;
+                            width: 98.5%;
                         }
                         
                         .container {
                             width: 85%;
                         }
                         
-                        .footer {
-                            width: 98%;
-                            display: flex;
-                            justify-content: space-between;
-                        }
-                        
                         .derecho {
                             text-align: center;
+                            height: 15%;
                             width: 25%;
                             margin-right: 0ch;
                             border-right: 0ch;
@@ -100,6 +114,10 @@
                             .docx {
                                 font-size: small;
                             }
+                        }
+                        
+                        .bcontainer {
+                            width: 100%;
                         }
                         
                         @media (min-width: 775px) {
@@ -159,10 +177,31 @@
                             margin-bottom: 1.3rem;
                         }
                         
+                        .footer {
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            color: orangered;
+                            font-style: oblique;
+                            border: solid;
+                        }
+                        
                         .footerr {
                             margin-left: 3rem;
                         }
                         
                         .footerl {
                             margin-right: 4.6rem;
+                        }
+                        
+                        @media (max-width:450px) {
+                            .footer {
+                                font-size: small;
+                            }
+                        }
+                        
+                        @media (max-width:350px) {
+                            .footer {
+                                font-size: x-small;
+                            }
                         }
