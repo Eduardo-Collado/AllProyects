@@ -1,3 +1,7 @@
+:root {
+    --blanco: #fff;
+}
+
 html {
     box-sizing: border-box;
     background-color: rgb(213, 213, 213);
@@ -56,12 +60,14 @@ html {
 }
 
 .linka {
-    height: 3rem;
+    height: 4rem;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     justify-content: space-evenly;
     margin-top: 5rem;
     margin-bottom: 5rem;
+    background-color: var(--blanco);
 }
 
 .linka a:hover {

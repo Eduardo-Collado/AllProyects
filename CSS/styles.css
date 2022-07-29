@@ -1,207 +1,213 @@
-                        html {
-                            box-sizing: border-box;
-                            background-color: rgb(213, 213, 213);
-                            color: #000;
-                            font-family: 'Courier New', Courier, monospace;
-                            width: auto;
-                        }
-                        
-                        *,
-                        *:before,
-                        *:after {
-                            box-sizing: inherit;
-                        }
-                        
-                        .titulo {
-                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                            font-size: 5rem;
-                            font-weight: 800;
-                        }
-                        
-                        @media (max-width: 700px) {
-                            .titulo {
-                                font-size: medium;
-                            }
-                        }
-                        
-                        .headerc {
-                            text-align: center;
-                        }
-                        
-                        .image {
-                            float: left;
-                            width: 6rem;
-                        }
-                        
-                        .texth {
-                            text-decoration: none;
-                            color: #000;
-                            font-size: x-large;
-                            font-weight: bold;
-                            color: orangered;
-                            font-style: oblique;
-                            border: solid;
-                            border-radius: 10%;
-                        }
-                        
-                        @media (max-width:700px) {
-                            .texth {
-                                font-size: medium;
-                            }
-                        }
-                        
-                        @media (max-width:450px) {
-                            .texth {
-                                font-size: small;
-                            }
-                        }
-                        
-                        .textd {
-                            text-decoration: none;
-                            color: #000;
-                            font-size: xx-large;
-                        }
-                        
-                        .linka a:hover {
-                            color: blue;
-                        }
-                        
-                        .linka {
-                            height: 3rem;
-                            padding-top: 1rem;
-                            display: flex;
-                            justify-content: space-evenly;
-                            margin-top: 5rem;
-                            margin-bottom: 5rem;
-                        }
-                        
-                        .body {
-                            width: 98.5%;
-                        }
-                        
-                        .container {
-                            width: 85%;
-                        }
-                        
-                        .derecho {
-                            text-align: center;
-                            height: auto;
-                            width: auto;
-                            margin-right: 0ch;
-                            border-right: 0ch;
-                            color: #000;
-                            background-color: #fff;
-                            border-radius: 10%;
-                        }
-                        
-                        @media (max-width: 1300px) {
-                            .textd {
-                                text-decoration: none;
-                                color: #000;
-                                font-size: x-large;
-                            }
-                            .rectangulo {
-                                width: auto;
-                            }
-                        }
-                        
-                        @media (max-width: 1200px) {
-                            .textd {
-                                text-decoration: none;
-                                color: #000;
-                                font-size: medium;
-                            }
-                            .docx {
-                                font-size: small;
-                            }
-                        }
-                        
-                        .bcontainer {
-                            width: 100%;
-                        }
-                        
-                        @media (min-width: 775px) {
-                            .bcontainer {
-                                display: flex;
-                            }
-                        }
-                        
-                        @media (max-width: 775px) {
-                            .derecho {
-                                width: 100%;
-                            }
-                        }
-                        
-                        .lista {
-                            display: inline-block;
-                            text-align: center;
-                            color: #000;
-                        }
-                        
-                        .rectangulo {
-                            margin-left: 5rem;
-                            margin-top: 1.3rem;
-                            height: auto;
-                            width: 80%;
-                            padding-bottom: 1rem;
-                        }
-                        
-                        .margin {
-                            margin-left: 5rem;
-                        }
-                        
-                        .borde {
-                            border: solid;
-                        }
-                        
-                        .texto {
-                            text-align: justify;
-                            padding: 4px 16px;
-                        }
-                        
-                        .center {
-                            text-align: center;
-                        }
-                        
-                        .margz {
-                            margin: 0cm;
-                        }
-                        
-                        .ol {
-                            text-align: left;
-                            display: inline-block;
-                            margin: 0%;
-                        }
-                        
-                        .fin {
-                            margin-bottom: 1.3rem;
-                        }
-                        
-                        .footer {
-                            width: 100%;
-                            display: flex;
-                            justify-content: space-between;
-                            color: orangered;
-                            font-style: oblique;
-                            border: solid;
-                        }
-                        
-                        .footerr {
-                            margin-left: 3rem;
-                        }
-                        
-                        .footerl {
-                            margin-right: 4.6rem;
-                        }
-                        
-                        @media (max-width:450px) {
-                            .footer {
-                                font-size: small;
-                            }
-                        }
-                        
-                        @media (max-width:350px) {
-                            .footer {
-                                font-size: x-small;
-                            }
-                        }
+                               :root {
+                                  --blanco: #fff;
+                              }
+                              
+                              html {
+                                  box-sizing: border-box;
+                                  background-color: rgb(213, 213, 213);
+                                  color: #000;
+                                  font-family: 'Courier New', Courier, monospace;
+                                  width: auto;
+                              }
+                              
+                              *,
+                              *:before,
+                              *:after {
+                                  box-sizing: inherit;
+                              }
+                              
+                              .titulo {
+                                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                  font-size: 5rem;
+                                  font-weight: 800;
+                              }
+                              
+                              @media (max-width: 700px) {
+                                  .titulo {
+                                      font-size: medium;
+                                  }
+                              }
+                              
+                              .headerc {
+                                  text-align: center;
+                              }
+                              
+                              .image {
+                                  float: left;
+                                  width: 6rem;
+                              }
+                              
+                              .texth {
+                                  text-decoration: none;
+                                  color: #000;
+                                  font-size: x-large;
+                                  font-weight: bold;
+                                  color: orangered;
+                                  font-style: oblique;
+                                  border: solid;
+                                  border-radius: 10%;
+                              }
+                              
+                              @media (max-width:700px) {
+                                  .texth {
+                                      font-size: medium;
+                                  }
+                              }
+                              
+                              @media (max-width:450px) {
+                                  .texth {
+                                      font-size: small;
+                                  }
+                              }
+                              
+                              .textd {
+                                  text-decoration: none;
+                                  color: #000;
+                                  font-size: xx-large;
+                              }
+                              
+                              .linka a:hover {
+                                  color: blue;
+                              }
+                              
+                              .linka {
+                                  height: 4rem;
+                                  padding-top: 1rem;
+                                  padding-bottom: 1rem;
+                                  display: flex;
+                                  justify-content: space-evenly;
+                                  margin-top: 5rem;
+                                  margin-bottom: 5rem;
+                                  background-color: var(--blanco);
+                              }
+                              
+                              .body {
+                                  width: 98.5%;
+                              }
+                              
+                              .container {
+                                  width: 85%;
+                              }
+                              
+                              .derecho {
+                                  text-align: center;
+                                  height: auto;
+                                  width: auto;
+                                  margin-right: 0ch;
+                                  border-right: 0ch;
+                                  color: #000;
+                                  background-color: #fff;
+                                  border-radius: 10%;
+                              }
+                              
+                              @media (max-width: 1300px) {
+                                  .textd {
+                                      text-decoration: none;
+                                      color: #000;
+                                      font-size: x-large;
+                                  }
+                                  .rectangulo {
+                                      width: auto;
+                                  }
+                              }
+                              
+                              @media (max-width: 1200px) {
+                                  .textd {
+                                      text-decoration: none;
+                                      color: #000;
+                                      font-size: medium;
+                                  }
+                                  .docx {
+                                      font-size: small;
+                                  }
+                              }
+                              
+                              .bcontainer {
+                                  width: 100%;
+                              }
+                              
+                              @media (min-width: 775px) {
+                                  .bcontainer {
+                                      display: flex;
+                                  }
+                              }
+                              
+                              @media (max-width: 775px) {
+                                  .derecho {
+                                      width: 100%;
+                                  }
+                              }
+                              
+                              .lista {
+                                  display: inline-block;
+                                  text-align: center;
+                                  color: #000;
+                              }
+                              
+                              .rectangulo {
+                                  margin-left: 5rem;
+                                  margin-top: 1.3rem;
+                                  height: auto;
+                                  width: 80%;
+                                  padding-bottom: 1rem;
+                              }
+                              
+                              .margin {
+                                  margin-left: 5rem;
+                              }
+                              
+                              .borde {
+                                  border: solid;
+                              }
+                              
+                              .texto {
+                                  text-align: justify;
+                                  padding: 4px 16px;
+                              }
+                              
+                              .center {
+                                  text-align: center;
+                              }
+                              
+                              .margz {
+                                  margin: 0cm;
+                              }
+                              
+                              .ol {
+                                  text-align: left;
+                                  display: inline-block;
+                                  margin: 0%;
+                              }
+                              
+                              .fin {
+                                  margin-bottom: 1.3rem;
+                              }
+                              
+                              .footer {
+                                  width: 100%;
+                                  display: flex;
+                                  justify-content: space-between;
+                                  color: orangered;
+                                  font-style: oblique;
+                                  border: solid;
+                              }
+                              
+                              .footerr {
+                                  margin-left: 3rem;
+                              }
+                              
+                              .footerl {
+                                  margin-right: 4.6rem;
+                              }
+                              
+                              @media (max-width:450px) {
+                                  .footer {
+                                      font-size: small;
+                                  }
+                              }
+                              
+                              @media (max-width:350px) {
+                                  .footer {
+                                      font-size: x-small;
+                                  }
+                              }
