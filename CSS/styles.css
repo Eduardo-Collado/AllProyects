@@ -85,8 +85,8 @@
                         
                         .derecho {
                             text-align: center;
-                            height: 15%;
-                            width: 25%;
+                            height: auto;
+                            width: auto;
                             margin-right: 0ch;
                             border-right: 0ch;
                             color: #000;
